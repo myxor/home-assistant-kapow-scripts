@@ -1,0 +1,8 @@
+kapow route add /hdd/error/sda -c 'python3 hdd.py error /dev/sda | kapow set /response/body'
+kapow route add /hdd/temp/sda -c 'python3 hdd.py temp /dev/sda | kapow set /response/body'
+
+kapow route add /hdd/error/sdb -c 'python3 hdd.py error /dev/sdb | kapow set /response/body'
+kapow route add /hdd/temp/sdb -c 'python3 hdd.py temp /dev/sdb | kapow set /response/body'
+
+kapow route add /hdd/error/sdc -c 'python3 hdd.py error /dev/sdc | kapow set /response/body'
+kapow route add /hdd/temp/sdc -c 'python3 hdd.py temp /dev/sdc | kapow set /response/body'
