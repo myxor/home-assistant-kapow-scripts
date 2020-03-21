@@ -1,0 +1,5 @@
+kapow route add /reboot -c 'reboot | kapow set /response/body'
+kapow route add /poweroff -c 'poweroff | kapow set /response/body'
+kapow route add /shutdown -c 'shutdown -h now | kapow set /response/body'
+
+
